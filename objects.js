@@ -6,9 +6,9 @@ o.greet = function(){
 }
 
 const o2 = {}
-o2.firstName = 'anirudh'
-o2['last name'] = 'mk'
-const val = 'teaching'
+o2['firstName'] = 'anirudh'
+o2['lastName'] = 'mk'
+const val = 'greet'
 o2[val] = function(){
     console.log('hello');
 }
